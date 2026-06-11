@@ -1,28 +1,15 @@
-# Grok Harness Loop Streamlit
+# Grok Harness Loop - Streamlit App
 
-Un agent autonome avec boucle de raisonnement (Think-Act-Observe-Reflect) utilisant Grok xAI.
+Agentic coding harness with Think-Act-Observe-Reflect loop using Grok API.
 
-## Fonctionnalités
-- **Interface Chatbot** : Lance des tâches agentiques.
-- **Boucle complète** : Think → Act (outils) → Observe → Reflect.
-- **Visualisation Graphe** : Noeuds et arêtes montrant chaque étape en temps réel.
-- **Outil** : Recherche web (simulation, extensible).
-- **LLM** : Grok via xAI API (clé à fournir).
+## Features
+- Grok LLM (xAI)
+- Web search tool
+- Interactive Chatbot
+- Dynamic Graph visualization of the loop
 
-## Installation locale
-```bash
-git clone https://github.com/Ulml/grok-harness-loop-streamlit.git
-cd grok-harness-loop-streamlit
-pip install -r requirements.txt
-streamlit run app.py
-```
+## Setup
+1. `pip install -r requirements.txt`
+2. `streamlit run app.py`
 
-Configure ta clé API Grok dans le sidebar ou via `export XAI_API_KEY=...`.
-
-## Améliorations futures
-- Intégration vraie Tavily/SerpAPI pour web search.
-- Plus d'outils (code execution, file editing).
-- Mémoire vectorielle.
-- Streaming des étapes.
-
-Créé avec ❤️ par Grok pour toi !
+See branches for each iteration step.
